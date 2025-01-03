@@ -2,7 +2,7 @@
     "name": "terciuss/laravel-swagger",
     "description": "Laravel Swagger generator for the Model",
     "keywords": ["laravel", "swagger", "swagger-php", "model", "eloquent"],
-    "type": "Extension",
+    "type": "extension",
     "license": "MIT",
     "authors": [
         {
@@ -11,9 +11,9 @@
         }
     ],
     "require": {
-        "php": ">=5.3",
+        "php": "^8.0",
         "zircote/swagger-php": "^2.0",
-        "doctrine/dbal": "~2.3"
+        "doctrine/dbal": "^3"
     },
     "autoload": {
         "psr-4": {
@@ -25,7 +25,12 @@
     },
     "minimum-stability": "stable",
     "require-dev": {
-        "laravel/laravel": "^5.5",
-        "laravel/lumen": "^5.5"
+        "laravel/laravel": "^9.0",
+        "laravel/lumen": "^9.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
     }
 }
