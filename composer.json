@@ -1,5 +1,5 @@
 {
-    "name": "kevupton/laravel-swagger",
+    "name": "terciuss/laravel-swagger",
     "description": "Laravel Swagger generator for the Model",
     "keywords": ["laravel", "swagger", "swagger-php", "model", "eloquent"],
     "type": "Extension",
